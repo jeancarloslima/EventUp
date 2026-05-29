@@ -7,6 +7,8 @@ describe("Adição, visualização e remoção de eventos favoritos", () => {
 
         cy.get('.event-list-container .card-container .btn-favorite').first().click()
         cy.get('.event-list-container .card-container').first().should('have.class', 'card-favorited');
+        cy.reload();
+        cy.get('.event-list-container .card-container').first().should('have.class', 'card-favorited');
     });
 
     it("Visualização de eventos salvos como favoritos", () => {
@@ -17,7 +19,16 @@ describe("Adição, visualização e remoção de eventos favoritos", () => {
         cy.get('.favorite-event-list-container .card-favorited').should('be.visible');
     });
 
-    it("Remoção de evento dos favoritos", () => {
+    it("Remoção de evento dos favoritos na página de eventos", () => {
+        cy.visit('http://localhost:3000/');
+
+        cy.get('.event-list-container .card-container .btn-favorite').first().click();
+        cy.get('.event-list-container .card-container').first().should('have.class', 'card-favorited');
+        cy.get('.event-list-container .card-container .btn-favorite').first().click();
+        cy.get('.event-list-container .card-container').first().should('not.have.class', 'card-favorited');
+    });
+
+    it("Remoção de evento dos favoritos na página de favoritos", () => {
         cy.visit('http://localhost:3000/');
 
         cy.get('.event-list-container .card-container .btn-favorite').first().click()
