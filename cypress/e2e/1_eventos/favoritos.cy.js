@@ -14,7 +14,7 @@ describe("Adição, visualização e remoção de eventos favoritos", () => {
 
         cy.get('.event-list-container .card-container .btn-favorite').first().click()
         cy.get('.header-container .btn-open-favorites').click();
-        cy.get('.favorite-event-list-container .card-favorited');
+        cy.get('.favorite-event-list-container .card-favorited').should('be.visible');
     });
 
     it("Remoção de evento dos favoritos", () => {
