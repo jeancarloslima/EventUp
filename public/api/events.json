@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Feira de Troca de Livros",
+    "category": "Cultura",
+    "date": "21/04/2026",
+    "location": "Praça Central"
+  },
+  {
+    "id": 2,
+    "title": "Workshop de Hortas Urbanas",
+    "category": "Sustentabilidade",
+    "date": "12/05/2026",
+    "location": "Centro Comunitário"
+  },
+  {
+    "id": 3,
+    "title": "Mutirão de Limpeza do Parque",
+    "category": "Ação Social",
+    "date": "15/06/2026",
+    "location": "Parque da Cidade"
+  },
+  {
+    "id": 4,
+    "title": "Aula de Yoga ao Ar Livre",
+    "category": "Saúde",
+    "date": "20/07/2026",
+    "location": "Parque das Flores"
+  },
+  {
+    "id": 5,
+    "title": "Cine Clube: Documentário Ambiental",
+    "category": "Cultura",
+    "date": "05/08/2026",
+    "location": "Biblioteca Municipal"
+  },
+  {
+    "id": 6,
+    "title": "Oficina de Programação para Jovens",
+    "category": "Educação",
+    "date": "10/09/2026",
+    "location": "Hub de Inovação"
+  },
+  {
+    "id": 7,
+    "title": "Torneio de Xadrez Amador",
+    "category": "Lazer",
+    "date": "22/09/2026",
+    "location": "Clube Social"
+  },
+  {
+    "id": 8,
+    "title": "Campanha de Doação de Sangue",
+    "category": "Saúde",
+    "date": "05/10/2026",
+    "location": "Unidade de Saúde Norte"
+  },
+  {
+    "id": 9,
+    "title": "Festival de Gastronomia Local",
+    "category": "Cultura",
+    "date": "15/11/2026",
+    "location": "Praça da Matriz"
+  },
+  {
+    "id": 10,
+    "title": "Plantio de Mudas Nativas",
+    "category": "Sustentabilidade",
+    "date": "10/12/2026",
+    "location": "Margens do Rio Azul"
+  }
+]
